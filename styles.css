@@ -8,7 +8,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: ;
+  background-color: #a9a9a9;
 }
 
 body {
@@ -55,6 +55,10 @@ p, li {
        header {
         height: 200px;
       }
+     body > * {
+  background-color: green;
+  padding: 1%;
+   }
 
       header img {
         width: 60px;
@@ -90,4 +94,29 @@ nav a, nav span {
   text-decoration: none;
   color: black;
 
+}
+  /* || main layout */
+
+main {
+  display: flex;
+}
+
+article, section {
+  flex: 4;
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+  padding: 1%;
+}
+
+aside a {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+aside img {
+  max-width: 100%;
 }
