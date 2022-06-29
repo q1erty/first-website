@@ -9,6 +9,7 @@ html, body {
   html {
    font-size: 8px;
   background-color: #c0c0c0;
+  
    }
 
 body {
@@ -16,6 +17,18 @@ body {
   min-width: 600px;
   margin: 0 auto;
 }
+  header {
+   position: fixed;
+   top: 0;
+  width: 1200px;
+  margin-top: 0;
+  padding: 10px;
+  border: 1rem solid rebeccapurple;
+ border-radius: .7em;
+   }
+  nav {
+  margin-top: 190px;
+ }
                /* || typography */
 
 h1, h2, h3 {
@@ -24,7 +37,7 @@ h1, h2, h3 {
   
 }
 
-p, input, li {
+p, input, div {
   font-family: 'Roboto Condensed', sans-serif;
   color: #2a2a2a;
 }
@@ -45,13 +58,45 @@ h2 {
   text-align: center;
  }
 
-p, li {
+p, div, li {
   font-size: 2.6rem;
   line-height: 2.0;
+  border-radius: .5em;
 }
 
-
-
+    span {
+  color: rebeccapurple;
+}
+    ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+} 
+    .container {
+      background-image: url("bay1.jpg");
+      
+  }
+   .box1, .box2, .box3  {
+     background-color: hsla(174, 77%, 31%, .9);
+     width: 20%;
+     margin: 10px;
+    }
+   .box4  {
+     background-color: hsla(174, 77%, 31%, .7);
+     width: 20%;
+     margin: 10px;
+    }
+   .box5, .box6, .box7  {
+     background-color: hsla(174, 77%, 31%, .6);
+     width: 12%;
+     margin: 10px;
+    }
+    .box8, .box9, .box10, .box11, .box12, .box13 {
+       background-color: hsla(174, 77%, 31%, .3);
+     width: 8%;
+     margin: 10px;
+    }
+    
  /* || header layout */
 
        header {
@@ -65,9 +110,15 @@ p, li {
       header img {
         width: 60px;
         position: absolute;
-        right: 32.5px;
         top: 32.5px;
+        right: 32.5px;
       }
+     a img {
+       width: 60px;
+       position: absolute;
+       
+       }
+       
      nav {
   height: 100px;
   flex: 100%;
@@ -99,6 +150,18 @@ nav a, nav span {
   font-weight: bold;
 
 }
+
+
+   .links-list a {
+  background-color: rgb(179,57,81);
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+}
+   .one {
+  background-color: hsl(174, 77%, 31%);
+}
+    
   /* || main layout */
 
 
