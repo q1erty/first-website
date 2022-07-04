@@ -20,7 +20,7 @@ body {
   header {
    position: fixed;
    top: 0;
-  width: 1200px;
+  width: 100%;
   margin-top: 0;
   padding: 10px;
   border: 1rem solid rebeccapurple;
